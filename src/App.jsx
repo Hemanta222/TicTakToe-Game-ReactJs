@@ -158,7 +158,7 @@ const App = () => {
       </Dialog>
 
       <Typography variant="h4" textAlign="center" fontWeight={"bold"}>
-        Tic Tak Toe
+        Tic Tac Toe
       </Typography>
 
       <Grid container className="GridContainer">
