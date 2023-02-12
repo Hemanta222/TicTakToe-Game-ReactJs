@@ -176,7 +176,7 @@ const App = () => {
         </Stack>
       </Dialog>
       <Grid container>
-        <Grid item xs={12}>
+        <Grid item xs={12} md={9}>
           <Typography variant="h4" textAlign="center" fontWeight={"bold"}>
             Tic Tac Toe
           </Typography>
