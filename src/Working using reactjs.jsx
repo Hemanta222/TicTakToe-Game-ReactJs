@@ -389,9 +389,8 @@ const App = () => {
           sx={{
             display: "flex",
             alignItems: "center",
-            justifyContent: { xs: "center", md: "flex-end" },
-            marginTop: { xs: "2rem", md: "initial" },
-            marginBottom: { xs: "2rem", md: "initial" },
+            justifyContent: { xs: "flex-start", md: "flex-end" },
+            marginTop: { xs: "1rem", md: "initial" },
           }}
         >
           <Stack
@@ -399,7 +398,7 @@ const App = () => {
             sx={{
               display: "flex",
               flexDirection: { sx: "column", sm: "row", md: "column" },
-              alignItems: { xs: "center", md: "flex-end" },
+              alignItems: { xs: "flex-start", md: "flex-end" },
             }}
           >
             <MButtonGroup modeChangeHandler={modeChangeHandler} />

@@ -14,7 +14,7 @@ const options = ["Easy", "Hard"];
 export default function MButtonGroup({ modeChangeHandler }) {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
-  const [selectedIndex, setSelectedIndex] = React.useState(0);
+  const [selectedIndex, setSelectedIndex] = React.useState(1);
 
   const handleClick = () => {
     // console.info(`You clicked ${options[selectedIndex]}`);
